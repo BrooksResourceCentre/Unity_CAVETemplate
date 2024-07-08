@@ -113,6 +113,5 @@ namespace Apt.Unity.Projection
                 cam.projectionMatrix = P;
             }
         }
-
     }
 }
