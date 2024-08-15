@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-guid: cdc168e4c70004b49afa628f3b7a3285
+guid: a2622eb69d192a34caa214b4517d613a
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 8574412962073106934
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 132195
-  packageName: Meadow Environment - Dynamic Nature
-  packageVersion: 2.9.8
-  assetPath: Assets/NatureManufacture Assets/Meadow Environment Dynamic Nature/Demo
-    Scenes/Terrain_Layers/layer_T_forest_ground_leaves_01.terrainlayer
-  uploadId: 664947

@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-guid: fea718d9ed80ea64d9708ebb377f10ea
+guid: 48d3932a564bd0c49b5bfc712f91a96a
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 15600000
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 132195
-  packageName: Meadow Environment - Dynamic Nature
-  packageVersion: 2.9.8
-  assetPath: Assets/NatureManufacture Assets/Meadow Environment Dynamic Nature/Demo
-    Scenes/Meadow Terrain Demo.asset
-  uploadId: 664947

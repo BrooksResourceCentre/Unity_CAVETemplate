@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-guid: 8b49f54b0fef6454088fbe9ef1a7073c
+guid: ad87f9b315f356940b04bb3a33750dbd
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: 4890085278179872738
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 132195
-  packageName: Meadow Environment - Dynamic Nature
-  packageVersion: 2.9.8
-  assetPath: Assets/NatureManufacture Assets/Meadow Environment Dynamic Nature/Demo
-    Scenes/Overview SceneSettings.lighting
-  uploadId: 664947

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad08b1f532ab30e41b276a53fa091883
+guid: aabf46aaf031ecc42925a47500522122
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -113,11 +113,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 132195
-  packageName: Meadow Environment - Dynamic Nature
-  packageVersion: 2.9.8
-  assetPath: Assets/NatureManufacture Assets/Meadow Environment Dynamic Nature/Demo
-    Scenes/Overview Scene/ReflectionProbe-0.exr
-  uploadId: 664947
