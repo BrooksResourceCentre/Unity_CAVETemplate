@@ -6,7 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     GraphicsSettingsInspector_UserSettings:
-      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b07a68ffab74f9ee2a3a30300cea1a11320d0beb1a0c25f7060f494b4cdf1b18f3045e38cb5ad8
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b07a68ffab74f9ee2a3a30300cea1a11320d0beb1a0c25f7060f494b4cc80018eb09361fc211cb1f862d19c51d19dcc413d6ade0d8ddfcddf9f4d9d29195fcfde6ebeae6f0a9c9afa6f8c5b89ff7a1aacececac4eba4d7c9d28bda
       flags: 0
     RecentlyUsedSceneGuid-0:
       value: 00070c0755505d5d5c0d5f7541200e44434f4c72757a716828704a66e7b2633b
@@ -25,6 +25,9 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-5:
       value: 060201525c0d500f080a587b407a5c44454f4b787b2a73677b284862b1b1363d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5300555f04020859080a547747215e4446164e797d7a70617b2c1866b1b13760
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
