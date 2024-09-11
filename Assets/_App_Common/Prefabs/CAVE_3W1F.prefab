@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 3608818858902711716}
   - component: {fileID: 8270805162022761343}
   m_Layer: 0
-  m_Name: Projection Camera Right
+  m_Name: Projection Camera Floor
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1415,6 +1415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 858204724780400027}
+  - component: {fileID: 46802612105210110}
   m_Layer: 0
   m_Name: CAVE_3W1F
   m_TagString: Untagged
@@ -1442,3 +1443,23 @@ Transform:
   - {fileID: 3962689637075139338}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46802612105210110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8379951209906154221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64610493af63d4643ababa89f476db91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 2667521208321596490}
+  - {fileID: 3952965122968145287}
+  - {fileID: 1563011384896003478}
+  - {fileID: 2662164158013518493}
+  cave: {fileID: 8379951209906154221}
+  offset: {x: 0, y: 1, z: 0}
+  rotationSpeed: 100
