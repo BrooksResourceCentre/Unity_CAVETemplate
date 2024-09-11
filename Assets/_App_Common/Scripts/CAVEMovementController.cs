@@ -12,6 +12,7 @@ public class CAVEMovementController : MonoBehaviour
     {
         MoveCaveToClickPosition();
         RotateCave();
+        CheckForQuit();
     }
 
     void MoveCaveToClickPosition()
@@ -41,6 +42,14 @@ public class CAVEMovementController : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
         {
             cave.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime); // Rotate right
+        }
+    }
+
+    void CheckForQuit()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit(); // Quit the application
         }
     }
 }
