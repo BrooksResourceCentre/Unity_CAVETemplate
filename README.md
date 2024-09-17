@@ -8,7 +8,6 @@ Within this project are configurations for the Brooks CAVE, a 5m by 5m floorspac
 
 
 
-------------------------------------------
 
 ## UNFINISHED DRAFT: How it works
 
@@ -21,14 +20,11 @@ To reinstate, with the Brooks CAVE this means that **anything withing the render
 
 
 
-------------------------------------------
-
 ## UNFINISHED DRAFT: How to use
 
 1. Include the appropriate prefab for your desired setup (e.g. a selection of walla and the floor) into your desired scene.
 
 
------------------------------------------- 
 
 ## UNFINISHED DRAFT: Development Roadmap
 
