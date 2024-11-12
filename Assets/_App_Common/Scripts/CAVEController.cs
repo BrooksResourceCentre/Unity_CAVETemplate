@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// General controller for the CAVE system.
+/// </summary>
 public class CAVEController : MonoBehaviour
 {
     [Header("References")]
@@ -61,7 +64,7 @@ public class CAVEController : MonoBehaviour
     #region Touch Actions
     void MoveCaveToClickPosition()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // Check for left mouse button click
         {
             foreach (Camera cam in cameras)
             {
@@ -81,16 +84,30 @@ public class CAVEController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            foreach (Camera cam in cameras)
-            {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
+            Vector3 mousePos = Input.mousePosition;
+            float screenWidth = Screen.width;
 
-                if (Physics.Raycast(ray, out hit))
+            for (int i = 0; i < cameras.Length; i++)
+            {
+                Camera cam = cameras[i];
+                Rect viewportRect = cam.rect;
+
+                // Calculate the screen rect for the camera
+                Rect screenRect = new Rect(viewportRect.x * screenWidth, viewportRect.y * Screen.height, viewportRect.width * screenWidth, viewportRect.height * Screen.height);
+
+                if (screenRect.Contains(mousePos))
                 {
-                    GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere); // Create a sphere
-                    sphere.transform.position = hit.point; // Move the sphere to the hit point
-                    break; // Exit the loop once the sphere is created
+                    Ray ray = cam.ScreenPointToRay(mousePos);
+                    RaycastHit hit;
+
+                    Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 2f); // Draw a red ray in the scene view
+
+                    if (Physics.Raycast(ray, out hit))
+                    {
+                        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere); // Create a sphere
+                        sphere.transform.position = hit.point; // Move the sphere to the hit point
+                        break; // Exit the loop once the sphere is created
+                    }
                 }
             }
         }
