@@ -61,7 +61,7 @@ public class CAVEController : MonoBehaviour
     #region Touch Actions
     void MoveCaveToClickPosition()
     {
-        if (Input.GetMouseButtonDown(0)) // Check for left mouse button click
+        if (Input.GetMouseButtonDown(0))
         {
             foreach (Camera cam in cameras)
             {
@@ -79,7 +79,7 @@ public class CAVEController : MonoBehaviour
 
     void InstantiateSphereAtClickPosition()
     {
-        if (Input.GetMouseButtonDown(1)) // Check for right mouse button click
+        if (Input.GetMouseButtonDown(0))
         {
             foreach (Camera cam in cameras)
             {
